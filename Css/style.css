@@ -1,0 +1,345 @@
+body{
+    font-family: "Monda";
+    /*src: url("../tipo/tipo/Monda-Bold.ttf");*/
+}
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  
+}
+
+header {
+    background-image: url(../imagenes/foto\ cv\ 1\ copia.png);
+    height: 60em;
+    background-size: cover;
+     
+}
+
+
+.presentación{
+    display:flex;
+    font-size: 3em;
+    color:white;
+    flex-direction: column;
+  
+}
+
+.soyelena{
+    margin-bottom: 2em;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.uxui{
+      
+    text-align: left;
+    display:flex;
+
+}
+
+.flex-container{
+    display:flex;
+    margin-top: 19em;
+
+}
+.flex-container > div{
+    margin-left: 2em;
+    padding: 2em;
+    margin-top: -7em;
+
+
+}
+
+.párrafoinicio{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color:white;
+    background-color:#1C1B1B;
+    width: 35rem;
+    height: 30rem;
+    line-height: 120%;
+    font-weight: 300 ;
+}
+
+.parrafo{
+    margin-bottom: 2em;
+}
+
+.columns{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.contactos{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
+    cursor: pointer;
+
+}
+
+.contactos > div{
+    display:flex;
+    flex-direction: row;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    align-items: center;
+}
+
+.hovertel:hover{
+
+    padding-left: 0.2em;
+   
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+   
+
+}
+
+
+.nav{
+    background-color: white;
+    height: 2em;
+    text-align: center;
+    padding-top: 3em;
+
+}
+
+.nav > a:hover{
+    background-color: #637195;
+    color: white;
+    font-size: xx-large;
+
+
+
+}
+
+
+.margintop {
+    margin-right: 3em;
+    color: black;
+    font-size: large;
+    margin-left: 0em;
+    font-weight: bold;
+   
+   
+}
+
+
+
+
+
+footer{
+    background-color: #1C1B1B;
+    height: 28%;
+    color:white;
+    font-size: 1.5em;
+    padding-top: 2em;
+    justify-content: center;
+}
+
+.linkrrss{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.medilin{
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    color:white;
+
+
+
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.medilin:hover{
+    
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+
+
+}
+
+.sobremi {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.skills{
+    display:flex ;
+    flex-direction: column;
+    background-color: white;
+    height: 90%;
+    width: 55%;
+    border-left: 0.2em solid black;
+    border-bottom: 0.2em solid black;
+    border-top: 0.2em solid black;
+   
+
+}
+h3{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+    margin-left: 2em;
+    color:#637195;
+}
+
+.hardskills{
+    margin-right: 3em;
+    margin-left: 3em;
+}
+.habi{
+    margin-left: 3em;
+    margin-right: 1em;
+}
+
+.letra{
+    font-size: 1.5em;
+    margin-left: 4.1em;
+    margin-bottom: 2em;
+    
+}
+
+.educacion{
+    background-color: white;
+    width: 45%;
+    border: 0.2em solid black;
+    
+}
+
+.diferent{
+    margin-left: 4em;
+}
+
+.listaeducacion{
+    background-color:white;
+    border: 0.2em solid white;
+    margin-left: 8em;
+
+}
+
+#titulito{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+
+    }
+
+#estudio{
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    color: #474747;
+
+}
+#estudio1{
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+    color: #474747;
+
+}
+
+#estudio2{
+    font-size: 1.5em;
+    margin-bottom: 5em;
+    color: #474747;
+}
+
+.projects-container{
+    padding: 0em 0em 2em 2em;
+  
+
+}
+
+.project{
+    display:flex;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-left: 5em;
+}
+
+.project-image{
+    width: 100%;
+    margin-top: 3em;
+
+}
+.project-image1{
+    width: 90%;
+    margin-top: 3em;
+
+}
+
+.project-info{
+    font-size: 1.5em; 
+    text-align: left;
+    margin-left: 2em;
+    line-height: 2em;
+    color: #474747; 
+    
+    
+
+    
+}
+h4{
+    font-size: 1.5em;
+    color:black;
+    margin-bottom: 2em;
+
+}
+
+.project-info > a:hover{
+    background-color: #637195;
+    color:white;
+    font-size: xx-large;
+
+}
+
+.project-info > a{
+    color: black;
+}
+
+
+
+.animation:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+
+
+}
+.mobile-content{
+    display:none;
+}
+
+@media only screen and (max-width:1366px) {
+    h1, h2 {
+        font-size: 1.5em;
+        line-height: 1em;
+        width: 100%;
+    }
+
+
+.desktop-content{
+    display:none;
+}
+
+.header-none{
+    display:none;
+}
+
+.mobile-content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.3em;
+    padding-top: 5em;}
