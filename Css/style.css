@@ -268,34 +268,62 @@ h3{
     align-items: center;
     margin-bottom: 1em;
     margin-left: 5em;
+    flex-wrap: wrap;
+   
+
 }
 
 .project-image{
-    width: 100%;
+    width: 63%;
     margin-top: 3em;
+    
 
 }
 .project-image1{
-    width: 90%;
+    width: 63%;
+    margin-top: 3em;
+    
+    
+
+}
+.project-image2{
+    width: 63%;
     margin-top: 3em;
 
 }
 
 .project-info{
-    font-size: 1.5em; 
+    font-size: 1.4em; 
     text-align: left;
-    margin-left: 2em;
+    margin-left: -2em;
     line-height: 2em;
     color: #474747; 
+   
     
     
 
     
 }
+.project-info1{
+    font-size: 1.4em; 
+    text-align: left;
+    margin-left: -2em;
+    line-height: 2em;
+    color: #474747; 
+
+}
+.project-info2{font-size: 1.4em; 
+    text-align: left;
+    margin-left: -2em;
+    line-height: 2em;
+    color: #474747; 
+
+}
+
 h4{
     font-size: 1.5em;
     color:black;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 
 }
 
@@ -307,6 +335,26 @@ h4{
 }
 
 .project-info > a{
+    color: black;
+}
+.project-info2 > a:hover{
+    background-color: #637195;
+    color:white;
+    font-size: xx-large;
+
+}
+
+.project-info2 > a{
+    color: black;
+}
+.project-info1 > a:hover{
+    background-color: #637195;
+    color:white;
+    font-size: xx-large;
+
+}
+
+.project-info1 > a{
     color: black;
 }
 
@@ -343,3 +391,4 @@ h4{
     align-items: center;
     padding:0.3em;
     padding-top: 5em;}
+
